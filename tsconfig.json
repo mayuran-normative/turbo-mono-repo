@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@ui/*": ["packages/ui/*"],
+        "@schemas/*": ["packages/schemas/*"],
+        "@db/*": ["packages/db/*"]
+      },
+      "moduleResolution": "node",
+      "target": "esnext",
+      "module": "esnext",
+      "lib": ["dom", "esnext"],
+      "jsx": "react-jsx",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    }
+  }

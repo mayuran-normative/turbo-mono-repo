@@ -9,12 +9,18 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "eslint": "^9.29.0",
     "prettier": "^3.5.3",
     "turbo": "^2.5.4",
-    "typescript": "5.8.2"
+    "typescript": "5.8.2",
+    "zod": "^3.25.67"
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
-  }
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
