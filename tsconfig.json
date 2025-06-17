@@ -13,5 +13,9 @@
       "jsx": "react-jsx",
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true
-    }
+    },
+    "references": [
+      { "path": "packages/ui" },
+      { "path": "apps/web" }
+    ]
   }

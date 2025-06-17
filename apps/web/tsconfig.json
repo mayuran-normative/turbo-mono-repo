@@ -1,6 +1,15 @@
 {
-    "extends": "../../tsconfig.json",
-    "compilerOptions": {
-      "outDir": "dist"
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@sme/ui": ["../../packages/ui/src"]
     }
-  }
+  },
+  "references": [
+    { "path": "../../packages/ui" }
+  ],
+  "include": ["src"]
+}
